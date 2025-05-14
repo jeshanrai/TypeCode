@@ -1,11 +1,18 @@
 import React from 'react';
-import TypingDashboard from './TypingDashboard';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import TypingDashboard from './pages/TypingDashboard';
+import Customize from './pages/Customize';
 
 function App() {
   return (
-    <div>
-      <TypingDashboard />
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<TypingDashboard />} />
+        <Route path="/customize" element={<Customize />} />
+      </Routes>
+    </Router>
   );
 }
 
