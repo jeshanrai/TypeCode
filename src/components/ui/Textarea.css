@@ -1,0 +1,11 @@
+.custom-textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  background: #444;
+  color: white;
+  font-size: 16px;
+  border: none;
+  resize: none;
+  height: 100px;
+}

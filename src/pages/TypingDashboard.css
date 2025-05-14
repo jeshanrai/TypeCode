@@ -1,0 +1,38 @@
+.typing-dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1e1e1e;
+  color: white;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 10px;
+}
+
+.text-container {
+  background: #333;
+  padding: 15px;
+  border-radius: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.correct {
+  color: white;
+}
+
+.incorrect {
+  color: red;
+}
+
+.neutral {
+  color: #888;
+}
